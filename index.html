@@ -8,8 +8,57 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <div class="gameWrapper">
+
+            <header class="header">
+                <h1 class="title">TIC-TAC-TOE</h1>
+                <div class="status" id="status"></div>
+            </header>
+
+            <div class="gameBoard" id="gameBoard">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+
+            <div class="controls">
+                <button class="resetBtn" id="resetBtn">Start New Game</button>
+            </div>
 
 
+            <div class="scoreBoard">
+                <div class="scoringText">Scoreboard</div>
 
+                <div class="scoreContainer">
+                    <div class="scoreItem">
+                        <span class="scoreLabel">Player X</span>
+                        <span class="scoreValue" id="scoreX">0</span>
+                    </div>
+                    <div class="scoreDiv"></div>
+                    <div class="scoreItem">
+                        <span class="scoreLabel">Player O</span>
+                        <span class="scoreValue" id="scoreO">0</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="winnerDisplay" id="winnerDisplay">
+        <div class="content">
+            <div class="message" id="message"></div>
+            <button class="btn" id="btn">Play Again!</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
