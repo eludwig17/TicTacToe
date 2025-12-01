@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #10b981;
-    --accent-color: #f59e0b;
-    --text-dark: #1f2937;
-    --text-light: #6b7280;
-    --bg-light: #f9fafb;
-    --bg-white: #ffffff;
-    --border-color: #e5e7eb;
+    --primary-color: #f97316;
+    --secondary-color: #9c6644;
+    --accent-color: #eab308;
+    --text-dark: #78350f;
+    --text-light: #92400e;
+    --bg-light: #fef3c7;
+    --bg-white: #fffbeb;
+    --border-color: #fde68a;
     --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
@@ -21,7 +21,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background: var(--bg-light);
+    background: beige;
     color: var(--text-dark);
     min-height: 100vh;
     display: flex;
@@ -140,7 +140,7 @@ body {
 }
 
 .resetBtn:hover {
-    background: #1d4ed8;
+    background: saddlebrown;
     box-shadow: var(--shadow-lg);
     transform: translateY(-1px);
 }
@@ -272,7 +272,7 @@ body {
 }
 
 .btn:hover {
-    background: #1d4ed8;
+    background: saddlebrown;
     box-shadow: var(--shadow-lg);
     transform: translateY(-1px);
 }
